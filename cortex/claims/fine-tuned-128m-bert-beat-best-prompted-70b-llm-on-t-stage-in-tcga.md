@@ -16,4 +16,4 @@ TCGA pathology reports (OCR text), 15% stratified test split, macro F1 with boot
 
 ## Relations
 - contrasts_with::[[claims/prompted-70b-llm-beat-fine-tuned-bert-on-n-stage-in-tcga]] — opposite result on a different field of the same paper (T versus N); not a disagreement between sources
-<!-- verified: pass by the writing agent's own re-read against the stored text, 2026-11-11. NOT a blind verification: no fresh agent could be spawned in this run. -->
+<!-- verified: pass by blind check (cortex.py pairs, judged from its output alone by a separate verifier agent), 2026-11-11; stored quote confirmed against the fetched paper. -->

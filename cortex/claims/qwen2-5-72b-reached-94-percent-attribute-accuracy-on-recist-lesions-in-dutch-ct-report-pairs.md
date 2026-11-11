@@ -1,7 +1,7 @@
 ---
 type: claim
-status: provisional
-verified: pass
+status: superseded
+verified: partial
 created: 2026-11-11
 description: RECIST target non-target new lesion extraction radiology reports open-source LLM accuracy longitudinal
 ---
@@ -15,5 +15,4 @@ description: RECIST target non-target new lesion extraction radiology reports op
 qwen2.5-72b (q4_K_M quantised), prompted with an in-context example, temperature 0, no fine-tuning; 50 test pairs from one hospital (Radboudumc), Dutch text; two readers judged label, size and series/image attributes. Extracts lesion data; the overall RECIST response category is not evaluated. A source's own result.
 
 ## Relations
-- none yet
-<!-- verified: pass by the writing agent's own re-read against the stored text, 2026-11-11. NOT a blind verification: no fresh agent could be spawned in this run. -->
+- superseded_by::[[claims/qwen2-5-72b-reached-94-percent-attribute-accuracy-on-recist-lesions-in-dutch-ct-report-pairs-in-the-abstract]] — blind verification said partial: "locally run" is not in the quoted text

@@ -1,7 +1,7 @@
 ---
 type: claim
-status: provisional
-verified: pass
+status: superseded
+verified: partial
 created: 2026-11-11
 description: rare class T4 N3 M1 macro F1 lower class imbalance TNM extraction
 ---
@@ -16,4 +16,4 @@ TCGA pathology reports, test split; models Clinical-BigBird, Llama-2-70b-chat, C
 
 ## Relations
 - none yet
-<!-- verified: pass by the writing agent's own re-read against the stored text, 2026-11-11. NOT a blind verification: no fresh agent could be spawned in this run. -->
+- superseded_by::[[claims/all-models-scored-lower-on-rare-tnm-classes-than-common-ones-in-the-tcga-zero-shot-comparison]] — blind verification said partial: the quoted sentence sits in the zero-shot comparison section, which the sentence above omitted

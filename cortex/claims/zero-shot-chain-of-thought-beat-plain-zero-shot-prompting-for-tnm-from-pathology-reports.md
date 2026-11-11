@@ -16,4 +16,4 @@ TCGA pathology reports, T, N and M categories, Llama-2-70b-chat, ClinicalCamel-7
 
 ## Relations
 - none yet
-<!-- verified: pass by the writing agent's own re-read against the stored text, 2026-11-11. NOT a blind verification: no fresh agent could be spawned in this run. -->
+<!-- verified: pass by blind check (cortex.py pairs, judged from its output alone by a separate verifier agent), 2026-11-11; stored quote confirmed against the fetched paper. -->
