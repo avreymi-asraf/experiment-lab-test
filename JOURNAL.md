@@ -15,8 +15,6 @@
 
 * **[SPARK-01] (from the user; Priority: high; Gap: G-01):** The pipeline is already connected on `oncolens-explorer` (branch `exp/01-explorer-init/connectivity`: data tools, connection check, short fine-tune, Colab runner), but nothing extracts anything yet: the model only learns to continue patient text. Open the first lab experiment from that branch (`new-exp --base-branch exp/01-explorer-init/connectivity`): add `evaluate.py` (per-field scores for stage and RECIST), a run viewer, and make the model output stage and RECIST as JSON.
 * **[SPARK-02] (from the user; Priority: medium; Gap: G-01):** Baseline: a prompted general LLM (no training) on stage and RECIST extraction, to know what the small trained model has to beat.
-* **[SPARK-03] (from [[00-explorer-connectivity/cloud-cpu]]; Priority: medium; Gap: none):** Push the experiment's branch from a session with write access, keep it, and register `explorer/synth.py` (synthetic sample and tiny local model) as a shared component, so every experiment has a no-credential smoke fixture.
-* **[SPARK-04] (from [[00-explorer-connectivity/cloud-cpu]]; Priority: low; Gap: G-01):** Run the full path (real sample, Qwen) in a cloud session with a credential for `OncoLens-data` and an allowed Hugging Face host.
 
 ## 3. Experiment Matrix (Chronological Index)
 
@@ -24,7 +22,6 @@
 
 | Exp | Opened | Closed | Target Repo (`Branch`) | Idea | Metric vs. Baseline | Verdict | One-Line Takeaway |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `[[00-explorer-connectivity/cloud-cpu]]` | 2026-11-11 | 2026-11-11 | `oncolens-explorer` (`exp/00-explorer-connectivity/cloud-cpu`) | Cloud CPU connectivity check | `no metric` | **HYPOTHESIS_SUPPORTED** | Guard and train smoke run work on CPU offline with synthetic sample and local tiny model; real sample and HF model unreachable in a cloud session |
 
 ## 4. Anti-Repeat Banlist
 

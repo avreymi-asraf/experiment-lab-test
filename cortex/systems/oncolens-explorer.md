@@ -62,5 +62,3 @@ Rules already in the code and kept: only public, de-identified samples go to Col
 - Batch size 8 runs out of memory on a T4 with full fine-tuning; use 4 or checkpoint gradients.
 - `colab_run` ships `git archive HEAD`: uncommitted training code is not sent.
 - The branch name `exp/01-explorer-init/connectivity` follows the lab's naming (`<id>-<short>-<name>` with short name `explorer`), but the lab has no folder for it yet.
-- In a cloud session with no credentials, `OncoLens-data` and `huggingface.co` are unreachable and `colab` is absent; the guard and `train` still run on CPU with a synthetic sample and a local tiny model (see `[[findings/cloud-session-connectivity]]`; fixtures in `explorer/synth.py` on `exp/00-explorer-connectivity/cloud-cpu`, not yet a shared component of the base branch).
-- `.gitignore` in the target ignores `runs/`, which also matches `notes/<exp-name>/runs/`; add run files with `git add -f`.

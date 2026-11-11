@@ -5,7 +5,7 @@
 ## Open Gaps
 | ID | Gap | From | Pri | Direction |
 |---|---|---|---|---|
-| G-01 | Can a small model, trained on cancer-patient documents, extract stage and RECIST data well enough to be useful, and what does it take (data, size, format)? | user | high | SPARK-01, SPARK-02. Narrowed 2026-11-11 by outside reading: [[findings/small-model-stage-and-recist-extraction]] (quoted claims only). Still unknown: any small-model result on RECIST, and any on our documents. |
+| G-01 | Can a small model, trained on cancer-patient documents, extract stage and RECIST data well enough to be useful, and what does it take (data, size, format)? | user | high | SPARK-01, SPARK-02 |
 
 ## Resolved Gaps
 | ID | Gap | Answered by |
