@@ -9,7 +9,7 @@
 * [[log]]: chronological record of cortex and lab operations
 
 ## Target Systems (`systems/`)
-* [[systems/oncolens-explorer]]: target for RECIST and stage extraction; Experiment Language not written yet; an earlier branch exists
+* [[systems/oncolens-explorer]]: target for RECIST and stage extraction; Experiment Language written from branch exp/01-explorer-init/connectivity (pipeline connected, task and evaluation missing)
 
 ## Findings (`findings/`)
 
