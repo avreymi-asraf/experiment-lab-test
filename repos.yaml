@@ -4,7 +4,7 @@
 # cortex/systems/_TEMPLATE.md by whoever adds the entry, before the first experiment), and a line in cortex/index.md.
 
 repos:
-  - name: oncolens-explorer                                  # folder name under .targets/repos/
-    url: https://github.com/avreymi-asraf/OncoLens-explorer.git
-    short_name: onco                                         # used in experiment names: <id>-onco-<worktree-name>
+  - name: oncolens-explorer
+    url: https://github.com/avreymi-asraf/oncolens-explorer.git
+    short_name: onco
     default_branch: main

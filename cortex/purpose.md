@@ -24,3 +24,9 @@ Not written yet. Open: the metric for each field (exact match on stage; RECIST c
 - Is there a labelled set, and how big? The metric per field is decided when one exists.
 - Which cancer types come first.
 - Are the documents de-identified, and may they go to Colab?
+
+## Answers from the user (2026-11-11)
+- Documents: "all" (the user did not narrow language, source or de-identification; ask again before any real patient text is used).
+- RECIST outputs: all (overall response, target lesion measurements and sum, new lesions).
+- Staging: both TNM and stage group. Cancer types: not narrowed.
+- Target repo: `avreymi-asraf/OncoLens-explorer` (data creation and storage live in `OncoLens-data`).
