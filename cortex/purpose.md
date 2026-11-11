@@ -10,23 +10,11 @@ Not written yet. The user has given the first step only (RECIST and stage extrac
 Not written yet. Open: the metric for each field (exact match on stage; RECIST category and lesion measurements against annotated documents), the labelled set to measure on, and how small the model must be. Until answered, an agent states the measure it used in its report.
 
 ## Stated by the user
-- Target repo: `oncolens-explorer`. Data creation and storage live in `OncoLens-data`.
-- Documents: the user answered "all" (all languages, sources and kinds of document, labelled or not). Not narrowed further; treat which documents are actually available as open.
-- RECIST outputs wanted: all (overall response, target lesion measurements and sum, new lesions).
-- Staging: both TNM and stage group, and the point in time (at diagnosis or later).
-
-## Answers given by the user (stated)
-- Documents: "all" (every kind of document about cancer patients; language, source and de-identification not narrowed further). Raw data creation and storage live in the separate `OncoLens-data` repo.
-- RECIST outputs: all (overall response, target lesion measurements and their sum, new lesions).
-- Staging: both TNM and stage group. Cancer types: not narrowed ("both" was the answer to the staging question only).
+- **Target repo:** `oncolens-explorer`. Data creation and storage live in `OncoLens-data`.
+- **Documents:** "all" (every kind of document about cancer patients; language, source and de-identification not narrowed). The only sample in use so far is a public structured study (`msk_chord_2024`), not free-text documents.
+- **RECIST outputs:** all (overall response, target lesion measurements and sum, new lesions).
+- **Staging:** both TNM and stage group, with the point in time (at diagnosis or later). Cancer types: not narrowed.
 
 ## Still open
-- Is there a labelled set, and how big? The metric per field is decided when one exists.
-- Which cancer types come first.
-- Are the documents de-identified, and may they go to Colab?
-
-## Answers from the user (2026-11-11)
-- Documents: "all" (the user did not narrow language, source or de-identification; ask again before any real patient text is used).
-- RECIST outputs: all (overall response, target lesion measurements and sum, new lesions).
-- Staging: both TNM and stage group. Cancer types: not narrowed.
-- Target repo: `avreymi-asraf/OncoLens-explorer` (data creation and storage live in `OncoLens-data`).
+- Is there a labelled set (documents with known stage and RECIST values), and how big? The metric per field is decided when one exists.
+- Which free-text documents, and may they go to Colab? Until the user says so, only public de-identified samples go there.
