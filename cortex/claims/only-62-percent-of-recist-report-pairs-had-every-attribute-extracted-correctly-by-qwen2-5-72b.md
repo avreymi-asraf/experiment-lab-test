@@ -1,7 +1,7 @@
 ---
 type: claim
 status: provisional
-verified: unchecked
+verified: pass
 created: 2026-11-11
 description: whole-document accuracy RECIST lesion extraction all attributes correct report pairs error rate
 ---

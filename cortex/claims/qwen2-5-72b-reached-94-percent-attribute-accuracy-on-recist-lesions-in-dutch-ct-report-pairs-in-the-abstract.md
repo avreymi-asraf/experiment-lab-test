@@ -1,7 +1,7 @@
 ---
 type: claim
 status: provisional
-verified: unchecked
+verified: pass
 created: 2026-11-11
 description: RECIST target non-target new lesion extraction radiology reports open-source LLM accuracy longitudinal
 ---
