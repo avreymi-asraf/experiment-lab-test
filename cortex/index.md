@@ -12,5 +12,6 @@
 * [[systems/oncolens-explorer]]: target for RECIST and stage extraction; Experiment Language written from branch exp/01-explorer-init/connectivity (pipeline connected, task and evaluation missing)
 
 ## Findings (`findings/`)
+* [[findings/cloud-session-connectivity]]: what runs on `oncolens-explorer` in a cloud session without Colab or credentials, and what is blocked
 
 ## Tensions (`tensions/`)
