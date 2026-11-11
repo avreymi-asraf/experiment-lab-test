@@ -17,5 +17,5 @@ description: whole-document accuracy RECIST lesion extraction all attributes cor
 Same setting as the 93.7%/94.9%/94.0% claim: 50 report pairs, one hospital, Dutch, qwen2.5-72b, no fine-tuning.
 
 ## Relations
-- refines::[[claims/qwen2-5-72b-reached-94-percent-attribute-accuracy-on-recist-lesions-in-dutch-ct-report-pairs]] — same study, stricter unit (whole pair)
+- refines::[[claims/qwen2-5-72b-reached-94-percent-attribute-accuracy-on-recist-lesions-in-dutch-ct-report-pairs-in-the-abstract]] — same study, stricter unit (whole pair)
 <!-- verified: partial in the blind check (model and language not shown in the first quote); abstract evidence item added, needs a fresh blind re-check. -->

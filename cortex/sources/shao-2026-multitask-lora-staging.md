@@ -6,6 +6,7 @@ published: 2026-04-14
 captured: 2026-11-11
 location: "https://arxiv.org/abs/2604.13328"
 read: partial (abstract, introduction, background and start of methods, about 20,000 characters; results, ablations and appendix not retrieved)
+route: conversation, passages retyped by hand before `cortex.py store` existed; a later re-fetch found no changed words, not compared by script
 reliability: primary
 ---
 # Multi-Task LLM with LoRA Fine-Tuning for Automated Cancer Staging and Biomarker Extraction

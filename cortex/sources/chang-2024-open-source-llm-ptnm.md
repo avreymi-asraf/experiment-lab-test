@@ -6,6 +6,7 @@ published: 2024-04-02
 captured: 2026-11-11
 location: "https://arxiv.org/abs/2404.01589"
 read: partial (full text through the start of the Discussion; the rest of the Discussion and the conclusion were cut off in retrieval)
+route: conversation, passages retyped by hand before `cortex.py store` existed; a later re-fetch found no changed words, not compared by script
 reliability: primary
 ---
 # Classifying Cancer Stage with Open-Source Clinical Large Language Models

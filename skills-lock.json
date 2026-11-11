@@ -15,6 +15,14 @@
       "computedHash": "62a3653cd8fbc3d2505473b5891d849a995fd67a6949d30e6781ab400c46820d",
       "installMode": "copy"
     },
+    "cortex": {
+      "source": "avreymi-asraf/agent-skills",
+      "ref": "claude/confident-lamport-srprj4",
+      "sourceType": "github",
+      "skillPath": "skills/cortex/SKILL.md",
+      "computedHash": "8b1a951a42db413fec83cfb3c60a1304dcd65a6fbb4b892023124ccebede2904",
+      "installMode": "copy"
+    },
     "notebook-observability": {
       "source": "avreymi-asraf/agent-skills",
       "sourceType": "github",

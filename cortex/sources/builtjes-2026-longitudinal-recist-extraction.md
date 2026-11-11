@@ -6,6 +6,7 @@ published: 2026-03-10
 captured: 2026-11-11
 location: "https://arxiv.org/abs/2603.09638"
 read: full
+route: conversation, passages retyped by hand before `cortex.py store` existed; a later re-fetch found no changed words, not compared by script
 reliability: primary
 ---
 # Tracking Cancer Through Text: Longitudinal Extraction From Radiology Reports Using Open-Source Large Language Models
