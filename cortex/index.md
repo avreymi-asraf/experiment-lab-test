@@ -9,7 +9,7 @@
 * [[log]]: chronological record of cortex and lab operations
 
 ## Target Systems (`systems/`)
-* [[systems/recist-extract]]: planned target for RECIST and stage extraction; Experiment Language not written yet; repo not yet registered
+* [[systems/oncolens-explorer]]: target for RECIST and stage extraction; Experiment Language not written yet; an earlier branch exists
 
 ## Findings (`findings/`)
 

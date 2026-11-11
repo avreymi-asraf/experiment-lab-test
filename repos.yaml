@@ -4,7 +4,7 @@
 # cortex/systems/_TEMPLATE.md by whoever adds the entry, before the first experiment), and a line in cortex/index.md.
 
 repos:
-  - name: your-repo                                  # folder name under .targets/repos/
-    url: https://github.com/your-org/your-repo.git   # placeholder urls are skipped by sync-repos
-    short_name: repo                                 # used in experiment names: <id>-repo-<worktree-name>
+  - name: oncolens-explorer                                  # folder name under .targets/repos/
+    url: https://github.com/avreymi-asraf/OncoLens-explorer.git
+    short_name: onco                                         # used in experiment names: <id>-onco-<worktree-name>
     default_branch: main

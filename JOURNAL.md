@@ -13,7 +13,7 @@
 
 > `* **[SPARK-nn] (from [[<exp-name>]], a claim from outside, or the user; Priority; Gap):** the idea, and why it is worth an experiment.`
 
-* **[SPARK-01] (from the user; Priority: high; Gap: G-01):** Connect the pipeline end to end on a new target repo (`recist-extract`, not created yet): load a small set of de-identified or synthetic clinical documents, run one short fine-tune of a small model on Colab (`colab-cli`), extract `stage` and RECIST fields as JSON, score them. Narrow claim only: "the pipeline is connected". Builds the Experiment Language (data loader, run config, Colab runner, run viewer, `evaluate.py`).
+* **[SPARK-01] (from the user; Priority: high; Gap: G-01):** Connect the pipeline end to end on `oncolens-explorer`, starting from its existing branch `exp/01-explorer-init/connectivity`: load a small set of de-identified or synthetic clinical documents, run one short fine-tune of a small model on Colab (`colab-cli`), extract `stage` and RECIST fields as JSON, score them. Narrow claim only: "the pipeline is connected". Builds the Experiment Language (data loader, run config, Colab runner, run viewer, `evaluate.py`).
 * **[SPARK-02] (from the user; Priority: medium; Gap: G-01):** Baseline: a prompted general LLM (no training) on stage and RECIST extraction, to know what the small trained model has to beat.
 
 ## 3. Experiment Matrix (Chronological Index)
