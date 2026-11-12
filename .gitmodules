@@ -1,0 +1,3 @@
+[submodule "vendor/mcp-hello"]
+	path = vendor/mcp-hello
+	url = https://github.com/avreymi-asraf/mcp-hello.git
